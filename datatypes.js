@@ -20,13 +20,37 @@ console.log(`${firstName} ${lastName}, age is ${100 - 45}`);
 console.log('${firstName} ${lastName}, age is ${100 - 45}');
 
 // 2. Numbers
+console.log(typeof 3);
+console.log(typeof -34);
+console.log(typeof 45.2334);
 
 // 3. boolean
+console.log(typeof true);
+console.log(typeof false);
 
-// 4. objects (arrays)
+// 4. objects - collection of data consisting of key value pairs, separated by comma
+const student = {
+	firstName: 'Jane',
+	lastName: 'Doe',
+	cohort: 'SDF-FT09',
+	class: 'Bravo',
+	studentEmail: 'jane.doe@student.moringaschool.com',
+	age: 23,
+};
 
-// 5. null
+console.log(typeof student);
 
-// 6. undefined
+// 4.a arrays - list of values enclosed using square brackets []
+const students = ['John', 'Brian', 'Imani', 34];
+const scores = [23, 45, 34, 34];
+console.log(typeof students);
+
+// 5. null - respresents an intentionally absent value
+const newStudent = null;
+console.log(newStudent);
+
+// 6. undefined - not assinged any value
+let age;
+console.log(age);
 
 // 7. symbols
