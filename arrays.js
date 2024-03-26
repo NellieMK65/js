@@ -135,3 +135,12 @@ days.splice(4, 1, 'Friday');
 days.splice(2, 1, 'Wednesday');
 
 console.log(days);
+
+// Array iteration
+const scores = [34, 45, 53, 32, 54];
+
+for (let i = 0; i < scores.length; i++) {
+	// console.log(i);
+	// const score = scores[i];
+	console.log(scores[i]);
+}
